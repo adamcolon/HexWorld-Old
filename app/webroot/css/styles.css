@@ -1,0 +1,114 @@
+body{
+	color:#ffffff;
+	background-color:#000;
+}
+
+.gridboard{
+	clear:both;
+	position:absolute;
+	top:0;
+	left:0;
+	width:98%;
+	height:98%;
+	cursor:hand;
+	border:1px solid #aaaaaa;
+	background-image:url(http://www.devwarrior.com/tilegame/img/backgrounds/lifedownthere.jpg);
+}
+
+.gameboard{
+	clear:both;
+	position:absolute;
+	top:0;
+	left:0;
+	width:120%;
+	height:120%;
+	cursor:hand;
+	border:1px solid #aaaaaa;
+	background-image:url(http://www.devwarrior.com/tilegame/img/backgrounds/lifedownthere.jpg);
+}
+
+#myCanvasWindow{
+	clear:both;
+	position:absolute;
+	top:0;
+	left:0;
+	width:98%;
+	height:98%;
+	cursor:hand;
+	border:1px solid #ff0000;
+	overflow:hidden;
+}
+
+#space-detail {
+	background-image:url(http://www.devwarrior.com/tilegame/img/backgrounds/lifedownthere.jpg);
+}
+
+#space-detail table tr th{
+	text-align:left;
+}
+
+#header{
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:9999;
+	margin-right:10px;
+	background-image:url(http://www.devwarrior.com/tilegame/img/black75.png);
+}
+
+#header table {
+	text-align:center;
+	width:100%;
+	border:1px solid #ffffff;
+	border-collapse:collapse;
+}
+
+#footer{
+	background-image:url(http://www.devwarrior.com/tilegame/img/black75.png);
+}
+
+#action-bar{
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:9999;
+	margin-right:10px;
+	background-image:url(http://www.devwarrior.com/tilegame/img/black75.png);
+}
+
+.contextual-buttons{
+	display:none;
+}
+
+#navigation{
+	position:absolute;
+	z-index:999;
+}
+
+table#tiles{
+	width:100%;
+	background-image:url(http://www.devwarrior.com/tilegame/img/backgrounds/lifedownthere.jpg);
+	background-repeat:repeat;
+}
+
+table#tiles td{
+	text-align:center;
+}
+
+.marketing-block{
+	background-image:url(http://www.devwarrior.com/tilegame/img/backgrounds/lifedownthere.jpg);
+	border:1px solid #ffffff;
+	width:180px;
+	float:left;
+}
+
+.marketing-block a{
+	color:#fff;
+}
+
+#header-user{
+	color:#fff;
+	padding-left:20px;
+	background-image:url(http://www.devwarrior.com/tilegame/img/user_icon.png);
+	background-repeat:no-repeat;
+}
